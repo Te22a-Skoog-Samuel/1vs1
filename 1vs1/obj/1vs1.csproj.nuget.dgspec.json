@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj": {}
+    "C:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj": {
+    "C:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj",
+        "projectUniqueName": "C:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj",
         "projectName": "1vs1",
-        "projectPath": "c:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj",
+        "projectPath": "C:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\1vs1.csproj",
         "packagesPath": "C:\\Users\\samuel.skoog\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\obj\\",
+        "outputPath": "C:\\Users\\samuel.skoog\\Documents\\Programering\\1vs1\\1vs1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
