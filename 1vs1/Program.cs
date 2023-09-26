@@ -1,20 +1,19 @@
-﻿// SLUMP
+﻿string HjälteNamn ="Hjälte";
+string SkurkNamn ="Skurk";
+
+int HjältesHP =100;
+int SkurkensHP =100;
+
 Random generator = new Random();
+
+while (HjältesHP > 0 && SkurkensHP > 0)
 
 int slumptal = generator.Next(101);
 
 Console.WriteLine(slumptal);
 
-//WHILE-LOOP
 
-int tal = 101;
 
-while (tal > 0)
-{
-    Console.WriteLine(tal);
-    tal--;
-}
-
-Console.ReadLine(You are FINISHED);
+Console.WriteLine("You are FINISHED");
 
 Console.ReadLine();
