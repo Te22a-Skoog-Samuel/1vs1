@@ -8,24 +8,38 @@ Random generator = new Random();
 
 while (HjältesHP > 0 && SkurkensHP > 0)
 {
-Console.WriteLine("Next round, FIGHT!)";
-Console.WriteLine($"{HjälteNamn}: {HjältesHP}  {SkurkNamn}: {SkurkensHP}/n");
+Console.WriteLine("Next round, FIGHT!");
+Console.WriteLine($"{HjälteNamn}: {HjältesHP}  {SkurkNamn}: {SkurkensHP}");
 
-int HjältenSkada = generator.Next(50);
+int HjältenSkada = generator.Next(35);
 SkurkensHP -= HjältenSkada;
 SkurkensHP = Math.Max(0, SkurkensHP);
-Console.WriteLine($"{HjälteNamn} gör {HjältenSkada} skada på {SkurkNamn}");
+Console.WriteLine($"{HjälteNamn} orsakade {HjältenSkada} skada på {SkurkNamn}");
 
+int Skurkenskada = generator.Next(35);
+HjältesHP -= Skurkenskada;
+HjältesHP = Math.Max(0, HjältesHP);
+Console.WriteLine($"{SkurkNamn} orsakade {Skurkenskada} skada på {HjälteNamn}");
+
+Console.WriteLine("För att fortsätta, tryck på en valfri knapp");
+
+Console.ReadKey();
+}
+
+Console.WriteLine("Destructive FINISH");
+
+if (HjältesHP == 0 && SkurkensHP == 0)
+{
+Console.WriteLine("Ingen segrare");
 
 }
 
 
-int slumptal = generator.Next(101);
 
 Console.WriteLine(slumptal);
 
 
 
-Console.WriteLine("Destructive FINISH");
+
 
 Console.ReadLine();
